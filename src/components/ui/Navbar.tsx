@@ -59,8 +59,8 @@ const Navbar = () => {
             <div className='blog-container flex items-center justify-between'>
                 <h1 className='flex-shrink-0'>
                     <Link href="/" className='text-2xl flex items-center font-semibold text-gray-900 hover:text-primary transition-colors duration-300'>
-                    <FaBlog/>
-                    <span className='ml-1'>IdeaFlow</span>
+                    <FaBlog className='text-primary' />
+                    <span className='ml-1 text-primary'>IdeaFlow</span>
                     </Link>
                 </h1>
 
